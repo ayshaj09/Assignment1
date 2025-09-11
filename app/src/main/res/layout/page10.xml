@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#9A5A5B"
+    tools:context=".Page10Activity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/pfp"
+        android:src="@drawable/sonny"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sonny"
+        android:textColor="@color/white"
+        android:fontFamily="@font/opensans"
+        android:textFontWeight="700"
+        android:textSize="25dp"
+        android:id="@+id/sonny"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/pfp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="03:12"
+        android:textColor="@color/white"
+        android:fontFamily="@font/opensans"
+        android:textFontWeight="400"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/sonny"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:weightSum="3">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/deets"
+            android:scaleType="centerInside" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:src="@drawable/endcall"
+            android:clickable="true"
+            android:scaleType="centerInside" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:src="@drawable/speaker"
+            android:scaleType="centerInside" />
+    </LinearLayout>
+
+
+</RelativeLayout>

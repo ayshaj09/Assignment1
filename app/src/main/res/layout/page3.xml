@@ -1,0 +1,182 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Page3Activity"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back_arrow"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"/>
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/socially"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Socially"
+            android:textColor="#914042"
+            android:textSize="50dp"
+            android:textFontWeight="500"
+            android:letterSpacing="-0.06"
+            android:fontFamily="@font/opensans"
+            android:layout_marginBottom="35dp"/>
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:background="@drawable/inputbox"
+            android:hint="Username"
+            android:gravity="center_vertical"
+            android:paddingStart="15dp"
+            android:textSize="15dp"
+            android:fontFamily="@font/opensans"
+            android:layout_marginBottom="15dp"
+            android:textFontWeight="400"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:background="@drawable/inputbox"
+            android:gravity="center_vertical"
+            android:text="Password"
+            android:textSize="15dp"
+            android:textColor="#d4d4d4"
+            android:fontFamily="@font/opensans"
+            android:paddingStart="15dp"/>
+
+        <TextView
+            android:id="@+id/forget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot password?"
+            android:textColor="#a36e78"
+            android:textSize="14dp"
+            android:textFontWeight="600"
+            android:letterSpacing="-0.04"
+            android:fontFamily="@font/opensans"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:layout_gravity="end"/>
+
+        <TextView
+            android:id="@+id/loginbutton"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="25dp"
+            android:text="Log in"
+            android:background="@drawable/login_button"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="#d19f9e"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="#ededed"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OR"
+                android:fontFamily="@font/opensans"
+                android:textColor="#b8b8b8"
+                android:textStyle="bold"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="#ededed" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't have an account?"
+                android:textColor="#bca2a2"
+                android:textSize="14sp"
+                android:fontFamily="@font/opensans"
+                android:textFontWeight="600"/>
+
+            <TextView
+                android:id="@+id/signuptext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Sign up"
+                android:textColor="#914042"
+                android:textSize="14sp"
+                android:fontFamily="@font/opensans"
+                android:textFontWeight="700"
+                android:clickable="true"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:id="@+id/bottomLine"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ebebeb"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Socially"
+            android:textColor="#914042"
+            android:textSize="20sp"
+            android:textFontWeight="500"
+            android:letterSpacing="-0.06"
+            android:fontFamily="@font/opensans"
+            android:layout_marginTop="40dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
