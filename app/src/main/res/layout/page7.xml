@@ -28,8 +28,9 @@
             <ImageView
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                android:background="@drawable/Search"
+                android:background="@drawable/search2"
                 android:layout_centerVertical="true"
+                android:backgroundTint="#939393"
                 android:layout_marginLeft="5dp"
                 android:id="@+id/search"/>
 
@@ -37,7 +38,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="sonny"
-                android:background="null"
+                android:background="@null"
                 android:layout_centerVertical="true"
                 android:layout_toRightOf="@id/search"
                 android:layout_marginLeft="5dp"

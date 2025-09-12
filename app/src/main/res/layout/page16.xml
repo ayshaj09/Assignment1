@@ -57,7 +57,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Next"
-android:textStyle="bold"
+            android:textStyle="bold"
             android:textSize="20dp"
             android:textColor="#866266"
             android:backgroundTint="#866266"
@@ -67,5 +67,28 @@ android:textStyle="bold"
             android:clickable="true" />
 
     </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@id/header">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/pfp"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></ScrollView>
+
 
 </RelativeLayout>

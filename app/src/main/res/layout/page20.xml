@@ -133,7 +133,7 @@
                 android:layout_marginRight="10dp"
                 android:clickable="true"
                 android:backgroundTint="@color/white"
-                android:background="@drawable/Close"/>
+                android:background="@drawable/close"/>
         </LinearLayout>
 
 
@@ -211,7 +211,7 @@
             <ImageView
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:background="@drawable/Reels"
+                android:background="@drawable/reels"
                 android:backgroundTint="@color/white" />
 
             <TextView
@@ -233,7 +233,7 @@
                 android:layout_width="25dp"
                 android:layout_height="25dp"
                 android:layout_marginTop="5dp"
-                android:background="@drawable/Facebook"
+                android:background="@drawable/facebook"
                 android:backgroundTint="@color/white" />
 
             <TextView
@@ -256,7 +256,7 @@
                 android:layout_height="20dp"
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
-                android:background="@drawable/Donation"
+                android:background="@drawable/donation"
                 android:backgroundTint="@color/white" />
 
             <TextView
@@ -277,7 +277,7 @@
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:background="@drawable/Options"
+                android:background="@drawable/options"
                 android:backgroundTint="@color/white" />
 
             <TextView

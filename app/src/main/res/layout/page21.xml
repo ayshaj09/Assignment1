@@ -42,7 +42,7 @@
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:background="@drawable/Options"
+            android:background="@drawable/options"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:layout_marginEnd="20dp"
@@ -276,7 +276,7 @@
             <ImageView
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:background="@drawable/add"/>
+                android:background="@drawable/added"/>
 
 
         </LinearLayout>
@@ -309,7 +309,7 @@
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/cat"
+                    android:src="@drawable/p2"
                     app:civ_border_width="1dp"
                     app:civ_border_color="#d3d5d9"
                     />
@@ -317,7 +317,7 @@
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/cat"
+                    android:src="@drawable/p2"
                     app:civ_border_width="2dp"
                     app:civ_border_color="#FAFAFA"
                     android:layout_gravity="center"/>
@@ -329,7 +329,7 @@
                 android:fontFamily="@font/opensans"
                 android:textFontWeight="500"
                 android:textSize="14dp"
-                android:text="gymz"/>
+                android:text="vroom"/>
 
         </LinearLayout>
 
@@ -357,7 +357,7 @@
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/cat"
+                    android:src="@drawable/p8"
                     app:civ_border_width="2dp"
                     app:civ_border_color="#FAFAFA"
                     android:layout_gravity="center"/>
@@ -440,7 +440,7 @@
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:background="@drawable/Grid"
+                android:background="@drawable/grid"
                 android:layout_marginTop="9dp"
                 android:adjustViewBounds="true"
                 android:layout_marginBottom="7dp"
@@ -458,7 +458,7 @@
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_weight="1"
-            android:src="@drawable/Tag"
+            android:src="@drawable/tag"
             app:tint="#a7a7a7"
             android:scaleType="centerInside"/>
 
@@ -482,7 +482,7 @@
                 android:layout_height="130dp"
                 android:layout_weight="1"
                 android:scaleType="centerCrop"
-                android:src="@drawable/post3"
+                android:src="@drawable/p2"
                 android:layout_margin="1dp"
                 android:clickable="true"/>
 
@@ -500,7 +500,7 @@
                 android:layout_height="130dp"
                 android:layout_weight="1"
                 android:scaleType="centerCrop"
-                android:src="@drawable/ck"
+                android:src="@drawable/p5"
                 android:layout_margin="1dp"
                 android:clickable="true"/>
         </LinearLayout>
@@ -516,7 +516,7 @@
                 android:layout_height="130dp"
                 android:layout_weight="1"
                 android:scaleType="centerCrop"
-                android:src="@drawable/post1"
+                android:src="@drawable/p3"
                 android:layout_margin="1dp"
                 android:clickable="true"/>
 
@@ -525,7 +525,7 @@
                 android:layout_height="130dp"
                 android:layout_weight="1"
                 android:scaleType="centerCrop"
-                android:src="@drawable/post1"
+                android:src="@drawable/p4"
                 android:layout_margin="1dp"
                 android:clickable="true"/>
 

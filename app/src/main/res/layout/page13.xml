@@ -26,7 +26,7 @@
                 android:layout_height="15dp"
                 android:layout_marginTop="2dp"
                 android:layout_marginRight="3dp"
-                android:background="@drawable/Lock"
+                android:background="@drawable/lock"
                 android:backgroundTint="#866266"
                 android:layout_gravity="center_vertical"
                 />
@@ -51,7 +51,7 @@
             android:id="@+id/add"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:background="@drawable/Menu"
+            android:background="@drawable/menu"
             android:backgroundTint="#866266"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
@@ -347,7 +347,7 @@
                 android:textFontWeight="500"
                 android:textSize="14dp"
                 android:textColor="#96626c"
-                android:text="<3"/>
+                android:text="love"/>
 
         </LinearLayout>
     </LinearLayout>
@@ -379,7 +379,7 @@
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:background="@drawable/Grid"
+                android:background="@drawable/grid"
                 android:backgroundTint="#945962"
                 android:layout_marginTop="9dp"
                 android:adjustViewBounds="true"
@@ -398,7 +398,7 @@
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_weight="1"
-            android:src="@drawable/Tag"
+            android:src="@drawable/tag"
             app:tint="#a7a7a7"
             android:scaleType="centerInside"/>
 

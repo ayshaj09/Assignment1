@@ -42,7 +42,7 @@
                     <ImageView
                         android:layout_width="20dp"
                         android:layout_height="20dp"
-                        android:background="@drawable/Search"
+                        android:background="@drawable/search2"
                         android:layout_centerVertical="true"
                         android:layout_marginLeft="5dp"
                         android:backgroundTint="#99595A"
@@ -53,7 +53,7 @@
                         android:layout_height="wrap_content"
                         android:text="Search"
                         android:textColor="#99595A"
-                        android:background="null"
+                        android:background="@null"
                         android:layout_centerVertical="true"
                         android:layout_toRightOf="@id/search"
                         android:layout_marginLeft="5dp"
@@ -193,12 +193,12 @@
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
                             android:clickable="true"
-                            android:src="@drawable/post1" />
+                            android:src="@drawable/p3" />
 
                         <ImageView
                             android:layout_width="20dp"
                             android:layout_height="20dp"
-                            android:src="@drawable/Gallery"
+                            android:src="@drawable/gallery"
                             app:tint="@color/white"
                             android:layout_gravity="top|right"
                             android:layout_margin="6dp"/>
@@ -312,7 +312,7 @@
                         <ImageView
                             android:layout_width="15dp"
                             android:layout_height="15dp"
-                            android:src="@drawable/Gallery"
+                            android:src="@drawable/gallery"
                             app:tint="@color/white"
                             android:layout_gravity="top|right"
                             android:layout_margin="6dp"/>
@@ -347,12 +347,16 @@
                             android:layout_height="0dp"
                             android:clickable="true"
                             android:layout_weight="1"
+                            android:layout_margin="1dp"
+                            android:background="@drawable/p7"
                             android:scaleType="centerCrop"/>
 
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="1"
+                            android:layout_margin="1dp"
+                            android:background="@drawable/p6"
                             android:clickable="true"
                             android:scaleType="centerCrop"/>
 
@@ -363,6 +367,7 @@
                         android:layout_height="260dp"
                         android:layout_margin="1dp"
                         android:clickable="true"
+                        android:background="@drawable/p2"
                         android:layout_weight="2"
                         android:scaleType="centerCrop"/>
 

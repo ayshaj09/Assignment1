@@ -116,7 +116,8 @@
                 android:textColor="@color/white"
                 android:textSize="18dp"
                 android:textStyle="bold"
-                android:text="<3"/>
+                android:text="lovee"
+                />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -137,7 +138,7 @@
                 android:layout_height="30dp"
                 android:layout_marginRight="10dp"
                 android:clickable="true"
-                android:background="@drawable/Close"/>
+                android:background="@drawable/close"/>
         </LinearLayout>
 
 
@@ -163,7 +164,7 @@
             <ImageView
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:background="@drawable/Activity"
+                android:background="@drawable/activity"
                 android:backgroundTint="@color/white" />
 
             <TextView
@@ -189,7 +190,7 @@
             <ImageView
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:background="@drawable/Reels"
+                android:background="@drawable/reels"
                 android:backgroundTint="@color/white" />
 
             <TextView
@@ -252,7 +253,7 @@
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:background="@drawable/Share"
+                android:background="@drawable/share"
                 android:backgroundTint="@color/white" />
 
             <TextView
@@ -273,7 +274,7 @@
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:background="@drawable/Options"
+                android:background="@drawable/options"
                 android:backgroundTint="@color/white" />
 
             <TextView

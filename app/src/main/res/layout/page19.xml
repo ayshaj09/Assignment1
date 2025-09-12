@@ -43,7 +43,7 @@
             android:clickable="true"
             android:layout_marginRight="5dp"
             android:layout_gravity="center_vertical"
-            android:background="@drawable/Download"/>
+            android:background="@drawable/download"/>
 
         <ImageView
             android:layout_width="40dp"
@@ -59,7 +59,7 @@
             android:clickable="true"
             android:layout_marginRight="5dp"
             android:layout_gravity="center_vertical"
-            android:background="@drawable/Filters"/>
+            android:background="@drawable/filters"/>
 
         <ImageView
             android:layout_width="40dp"
@@ -67,7 +67,7 @@
             android:clickable="true"
             android:layout_marginRight="5dp"
             android:layout_gravity="center_vertical"
-            android:background="@drawable/Picture"/>
+            android:background="@drawable/picture"/>
 
         <ImageView
             android:layout_width="40dp"
@@ -75,14 +75,14 @@
             android:clickable="true"
             android:layout_marginRight="5dp"
             android:layout_gravity="center_vertical"
-            android:background="@drawable/Stickers"/>
+            android:background="@drawable/stickers"/>
 
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:clickable="true"
             android:layout_gravity="center_vertical"
-            android:background="@drawable/Text"/>
+            android:background="@drawable/text"/>
 
 
     </LinearLayout>
@@ -154,7 +154,7 @@
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:clickable="true"
-            android:background="@drawable/Next"
+            android:background="@drawable/next"
             android:layout_marginLeft="10dp"/>
 
 

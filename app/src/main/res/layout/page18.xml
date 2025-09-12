@@ -138,7 +138,7 @@
                 android:layout_marginRight="10dp"
                 android:clickable="true"
                 android:backgroundTint="@color/white"
-                android:background="@drawable/Close"/>
+                android:background="@drawable/close"/>
         </LinearLayout>
 
 
@@ -176,7 +176,7 @@
                 android:layout_marginLeft="10dp"
                 android:textColor="@color/white"
                 android:textSize="18dp"
-                android:background="null"
+                android:background="@null"
                 android:text="Send Message"/>
 
 
@@ -187,13 +187,13 @@
                 android:layout_height="40dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginLeft="5dp"
-                android:background="@drawable/Share"
+                android:background="@drawable/share"
                 android:backgroundTint="@color/white" />
 
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/Options"
+                android:background="@drawable/options"
                 android:backgroundTint="@color/white" />
 
 

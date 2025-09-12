@@ -490,7 +490,7 @@
                             android:layout_width="50dp"
                             android:layout_height="50dp"
                             android:layout_marginLeft="5dp"
-                            android:background="@drawable/podt6"/>
+                            android:background="@drawable/post6"/>
 
                         <ImageView
                             android:layout_width="50dp"

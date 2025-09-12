@@ -84,7 +84,7 @@
             <ImageView
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                android:background="@drawable/Search"
+                android:background="@drawable/search2"
                 android:backgroundTint="#7E7E7E"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="10dp"
@@ -94,7 +94,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Search"
-                android:background="null"
+                android:background="@null"
                 android:textColor="#8D8D8D"
                 android:fontFamily="@font/opensans"
                 android:textFontWeight="500"
