@@ -79,10 +79,98 @@
             android:layout_height="match_parent"
             android:background="@drawable/p6"/>
 
-        <ImageView
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/plus"
+            android:layout_margin="15dp"
+android:layout_toLeftOf="@id/grid"
+            android:layout_alignParentBottom="true">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle3"
+                android:backgroundTint="#801F1F1F"
+
+                />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/plus"
+                android:backgroundTint="@color/white"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/grid"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@id/multiple"
+            android:layout_alignParentBottom="true">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle3"
+                android:backgroundTint="#801F1F1F"
+
+                />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/gallery"
+                android:backgroundTint="@color/white"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="15dp"
+            android:id="@+id/multiple"
+           android:layout_alignParentEnd="true"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentBottom="true">
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle3"
+                android:backgroundTint="#801F1F1F"
+
+                />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/g"
+                android:background="@drawable/gallery"
+                android:backgroundTint="@color/white"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_toRightOf="@id/g"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:text="SELECT MULTIPLE"/>
+
+        </RelativeLayout>
+
 
     </RelativeLayout>
 
