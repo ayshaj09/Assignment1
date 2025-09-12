@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".Page2Activity"
+    android:id="@+id/main"
     android:background="#ffffff">
 
     <TextView
@@ -36,7 +37,7 @@
         android:layout_marginTop="7dp"
         android:layout_centerHorizontal="true"
         android:textSize="17dp"
-        android:textStyle="bold"/>
+        android:textColor="@color/black"/>
 
     <TextView
         android:layout_below="@id/username"
@@ -67,8 +68,7 @@
         android:id="@+id/switchtext"
         android:letterSpacing="-0.04"
         android:fontFamily="@font/opensans"
-        android:layout_marginTop="25dp"
-        android:clickable="true"/>
+        android:layout_marginTop="25dp"/>
 
     <ImageView
         android:id="@+id/bottomLine"
@@ -85,7 +85,7 @@
         android:layout_alignParentBottom="true"
         android:gravity="center"
         android:orientation="horizontal"
-        android:layout_marginBottom="40dp">
+        android:layout_marginBottom="70dp">
 
         <TextView
             android:id="@+id/text1"
@@ -93,7 +93,7 @@
             android:layout_height="wrap_content"
             android:text="Don't have an account?"
             android:textColor="#bca2a2"
-            android:textSize="14sp"
+            android:textSize="16dp"
             android:fontFamily="@font/opensans"
             android:textFontWeight="600"/>
 
@@ -103,7 +103,7 @@
             android:layout_height="wrap_content"
             android:text=" Sign up"
             android:textColor="#914042"
-            android:textSize="14sp"
+            android:textSize="16dp"
             android:fontFamily="@font/opensans"
             android:textFontWeight="700"
             android:clickable="true"/>

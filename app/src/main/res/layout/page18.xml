@@ -137,6 +137,7 @@
                 android:layout_height="30dp"
                 android:layout_marginRight="10dp"
                 android:clickable="true"
+                android:id="@+id/back"
                 android:backgroundTint="@color/white"
                 android:background="@drawable/close"/>
         </LinearLayout>

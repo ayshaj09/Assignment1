@@ -1,6 +1,9 @@
 package com.example.assignment1
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -11,10 +14,26 @@ class Page2Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.page2)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+
+        val login=findViewById<TextView>(R.id.loginbutton)
+        login.setOnClickListener {
+            val intent= Intent(this, Page13Activity::class.java)
+            startActivity(intent)
+            finish()
         }
+
+        val signup=findViewById<TextView>(R.id.signuptext)
+        signup.setOnClickListener {
+            val intent = Intent(this, Page4Activity::class.java)
+            startActivity(intent)
+        }
+
+        val switch=findViewById<TextView>(R.id.switchtext)
+        switch.setOnClickListener {
+            val intent = Intent(this, Page3Activity::class.java)
+            startActivity(intent)
+        }
+
+
     }
 }

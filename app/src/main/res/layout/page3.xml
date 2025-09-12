@@ -9,7 +9,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/back_arrow"
-        android:layout_marginTop="30dp"
+        android:id="@+id/back"
+        android:layout_marginTop="60dp"
         android:layout_marginLeft="15dp"/>
 
     <LinearLayout
@@ -41,6 +42,7 @@
             android:gravity="center_vertical"
             android:paddingStart="15dp"
             android:textSize="15dp"
+            android:textColor="@color/black"
             android:fontFamily="@font/opensans"
             android:layout_marginBottom="15dp"
             android:textFontWeight="400"/>
@@ -51,9 +53,10 @@
             android:layout_height="45dp"
             android:background="@drawable/inputbox"
             android:gravity="center_vertical"
-            android:text="Password"
+            android:hint="Password"
             android:textSize="15dp"
-            android:textColor="#d4d4d4"
+            android:textColorHint="#d4d4d4"
+            android:textColor="@color/black"
             android:fontFamily="@font/opensans"
             android:paddingStart="15dp"/>
 
@@ -143,7 +146,7 @@
                 android:layout_height="wrap_content"
                 android:text=" Sign up"
                 android:textColor="#914042"
-                android:textSize="14sp"
+                android:textSize="16dp"
                 android:fontFamily="@font/opensans"
                 android:textFontWeight="700"
                 android:clickable="true"/>
@@ -157,7 +160,7 @@
         android:orientation="vertical"
         android:gravity="center"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="20dp">
+        android:layout_marginBottom="50dp">
 
         <ImageView
             android:id="@+id/bottomLine"

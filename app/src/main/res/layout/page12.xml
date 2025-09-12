@@ -989,6 +989,7 @@
             android:layout_height="25dp"
             android:src="@drawable/pfp"
             android:layout_weight="1"
+            android:id="@+id/pfp"
             android:layout_marginTop="-3dp"
             android:layout_gravity="center"
             android:clickable="true"/>

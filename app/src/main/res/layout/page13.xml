@@ -5,12 +5,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".Page13Activity"
+    android:id="@+id/main"
     android:background="#FAFAFA">
 
     <RelativeLayout
         android:id="@+id/header"
         android:layout_width="match_parent"
         android:layout_height="70dp"
+        android:layout_marginTop="10dp"
         android:background="@drawable/rectangle"
         android:backgroundTint="#FAFAFA">
 
@@ -72,6 +74,7 @@
 
         <FrameLayout
             android:layout_width="100dp"
+            android:id="@+id/story"
             android:layout_height="100dp">
 
             <de.hdodenhof.circleimageview.CircleImageView
@@ -222,7 +225,7 @@
         android:background="@drawable/button3"
         android:layout_marginTop="15dp"
         android:text="Edit Profile"
-        android:id="@+id/button"
+        android:id="@+id/edit"
         android:gravity="center"
         android:textStyle="bold"
         android:textColor="#96626c"
@@ -234,7 +237,7 @@
         android:orientation="horizontal"
         android:weightSum="4"
         android:id="@+id/highlights"
-        android:layout_below="@id/button"
+        android:layout_below="@id/edit"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp">
 
@@ -275,6 +278,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:gravity="center"
+            android:id="@+id/highlight1"
             android:layout_marginLeft="20dp"
             android:clickable="true">
 
@@ -316,6 +320,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:gravity="center"
+            android:id="@+id/highlight2"
             android:layout_marginLeft="20dp"
             android:clickable="true">
 
@@ -468,6 +473,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:layout_marginBottom="35dp"
         android:layout_alignParentBottom="true"
         android:orientation="horizontal"
         android:gravity="center">
@@ -476,6 +482,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:id="@+id/home"
             android:src="@drawable/tab1"
             android:scaleType="centerInside"
             android:clickable="true"/>
@@ -484,6 +491,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:id="@+id/search"
             android:src="@drawable/tab2"
             android:scaleType="centerInside"
             android:clickable="true"/>
@@ -492,6 +500,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:id="@+id/post"
             android:src="@drawable/tab3"
             android:scaleType="centerInside"
             android:clickable="true"/>
@@ -500,6 +509,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:id="@+id/notif"
             android:src="@drawable/tab4"
             android:scaleType="centerInside"
             android:clickable="true"/>

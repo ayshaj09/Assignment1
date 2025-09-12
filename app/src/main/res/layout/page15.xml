@@ -11,8 +11,8 @@
     <RelativeLayout
         android:id="@+id/header"
         android:layout_width="match_parent"
-        android:layout_marginTop="15dp"
-        android:layout_height="70dp"
+        android:layout_height="90dp"
+
         android:background="@drawable/rectangle"
         android:backgroundTint="#FAFAFA">
 
@@ -21,6 +21,7 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:clickable="true"
+            android:id="@+id/cancel"
             android:layout_marginStart="20dp"
             android:textSize="18dp"
             android:text="Cancel"/>
@@ -49,6 +50,7 @@
             android:layout_centerVertical="true"
             android:layout_marginEnd="20dp"
             android:text="Done"
+            android:id="@+id/done"
             android:textStyle="bold"
             android:textSize="18dp"
             android:textColor="#844142"
@@ -119,7 +121,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@null"
-                    android:hint="Aysha Jamshaid"
+                    android:textColor="@color/black"
+                    android:hint="Name"
+                    android:text="Aysha Jamshaid"
                     android:textSize="16dp"
                     />
 
@@ -160,7 +164,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="aysha_j"
+                    android:textColor="@color/black"
                     android:textSize="16dp"
+                    android:hint="username"
                     android:background="@null"/>
 
                 <ImageView
@@ -199,9 +205,9 @@
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Website"
+                    android:hint="Website"
                     android:textSize="16dp"
-                    android:textColor="#D1D1D1"
+                    android:textColorHint="#D1D1D1"
                     android:background="@null"/>
 
                 <ImageView
@@ -241,6 +247,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="el snoopy"
+                    android:textColor="@color/black"
+                    android:hint="bio"
                     android:textSize="16dp"
                     android:background="@null"/>
             </LinearLayout>
@@ -312,7 +320,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="i230004@isb.nu.edu.pk"
-
+                    android:textColor="@color/black"
+                    android:hint="Email"
                     android:textSize="16dp"
                     android:background="@null"/>
 
@@ -352,9 +361,9 @@
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Phone Number"
+                    android:hint="Phone Number"
                     android:textSize="16dp"
-                    android:textColor="#D1D1D1"
+                    android:textColor="@color/black"
                     android:background="@null"/>
 
                 <ImageView
@@ -395,6 +404,7 @@
                     android:layout_height="wrap_content"
                     android:text="23i0004"
                     android:textSize="16dp"
+                    android:hint="roll number"
                     android:background="@null"/>
 
                 <ImageView

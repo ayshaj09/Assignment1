@@ -45,9 +45,6 @@
             android:name=".Page6Activity"
             android:exported="false" />
         <activity
-            android:name=".Page1Activity"
-            android:exported="false" />
-        <activity
             android:name=".Page9Activity"
             android:exported="false" />
         <activity
@@ -75,11 +72,10 @@
             android:name=".Page10Activity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Page1Activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
