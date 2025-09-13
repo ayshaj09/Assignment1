@@ -116,7 +116,7 @@
                 android:textColor="@color/white"
                 android:textSize="18dp"
                 android:textStyle="bold"
-                android:text="lovee"
+                android:text="love"
                 />
 
             <TextView

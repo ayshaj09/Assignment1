@@ -8,6 +8,14 @@
     android:id="@+id/main"
     android:background="#ffffff">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="30dp"
@@ -428,10 +436,12 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
         android:gravity="center"
+        android:orientation="horizontal"
         android:id="@+id/c5"
         android:clickable="true"
+        android:layout_marginTop="300dp"
         android:layout_marginBottom="50dp"
         >
 
@@ -440,8 +450,6 @@
             android:layout_height="30dp"
             android:background="@drawable/camera"
             android:backgroundTint="#9A5A5B"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
             android:clickable="true"/>
 
         <TextView
@@ -456,5 +464,7 @@
             android:clickable="true"/>
     </LinearLayout>
 
+    </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>

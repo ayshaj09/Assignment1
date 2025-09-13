@@ -8,6 +8,15 @@
     android:background="#FFFFFF"
     tools:context=".Page15Activity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="30dp"
@@ -29,6 +38,7 @@
             android:layout_centerVertical="true"
             android:clickable="true"
             android:id="@+id/cancel"
+            android:textColor="@color/black"
             android:layout_marginStart="20dp"
             android:textSize="18dp"
             android:text="Cancel"/>
@@ -71,7 +81,7 @@
         android:layout_height="100dp"
         android:src="@drawable/pfp"
         android:layout_below="@id/header"
-        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
         android:id="@+id/profile"
         />
@@ -83,7 +93,7 @@
         android:text="Change Profile Photo"
         android:layout_below="@id/profile"
         android:layout_marginTop="10dp"
-        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
         android:textSize="14dp"
         android:textColor="#8B424A"
         android:textStyle="bold"/>
@@ -116,7 +126,7 @@
                 android:layout_height="wrap_content"
                 android:text="Name"
                 android:textSize="16dp"
-
+                android:textColor="@color/black"
                 />
 
             <LinearLayout
@@ -158,6 +168,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Username"
+                android:textColor="@color/black"
                 android:textSize="16dp"
 
                 />
@@ -201,6 +212,7 @@
                 android:layout_height="wrap_content"
                 android:text="Website"
                 android:textSize="16dp"
+                android:textColor="@color/black"
 
                 />
 
@@ -241,6 +253,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Bio"
+                android:textColor="@color/black"
                 android:textSize="16dp"
 
                 />
@@ -291,6 +304,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="25dp"
         android:textSize="16dp"
+        android:textColor="@color/black"
         android:id="@+id/priv"
         android:textStyle="bold"
         />
@@ -314,6 +328,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Email"
+                android:textColor="@color/black"
                 android:textSize="16dp"
 
                 />
@@ -356,6 +371,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Phone"
+                android:textColor="@color/black"
                 android:textSize="16dp"
 
                 />
@@ -371,6 +387,7 @@
                     android:layout_height="wrap_content"
                     android:hint="Phone Number"
                     android:textSize="16dp"
+                    android:textColorHint="#D1D1D1"
                     android:textColor="@color/black"
                     android:background="@null"/>
 
@@ -398,6 +415,7 @@
                 android:layout_height="wrap_content"
                 android:text="Roll No."
                 android:textSize="16dp"
+                android:textColor="@color/black"
 
                 />
 
@@ -411,6 +429,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="23i0004"
+                    android:textColor="@color/black"
                     android:textSize="16dp"
                     android:hint="roll number"
                     android:background="@null"/>
@@ -430,5 +449,7 @@
 
     </LinearLayout>
 
+    </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>
