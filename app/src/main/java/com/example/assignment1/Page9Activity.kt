@@ -24,5 +24,11 @@ class Page9Activity : AppCompatActivity() {
         back.setOnClickListener {
             onBackPressedDispatcher.onBackPressed()
         }
+
+        val c1 = findViewById<ImageView>(R.id.camera)
+        c1.setOnClickListener {
+            val intent = Intent(this, Page17Activity::class.java)
+            startActivity(intent)
+        }
     }
 }

@@ -61,7 +61,6 @@ class Page13Activity : AppCompatActivity() {
         pst.setOnClickListener {
             val intent= Intent(this, Page16Activity::class.java)
             startActivity(intent)
-            finish()
         }
 
         val ntf=findViewById<ImageView>(R.id.notif)

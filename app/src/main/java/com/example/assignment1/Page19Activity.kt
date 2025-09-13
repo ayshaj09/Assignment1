@@ -21,21 +21,25 @@ class Page19Activity : AppCompatActivity() {
         val back= findViewById<ImageView>(R.id.back)
         back.setOnClickListener {
             onBackPressedDispatcher.onBackPressed()
+            finish()
         }
 
         val back2= findViewById<LinearLayout>(R.id.story)
         back2.setOnClickListener {
             onBackPressedDispatcher.onBackPressed()
+            finish()
         }
 
         val back3= findViewById<LinearLayout>(R.id.close)
         back3.setOnClickListener {
             onBackPressedDispatcher.onBackPressed()
+            finish()
         }
 
         val back4= findViewById<ImageView>(R.id.go)
         back4.setOnClickListener {
             onBackPressedDispatcher.onBackPressed()
+            finish()
         }
     }
 }

@@ -32,28 +32,24 @@ class Page7Activity : AppCompatActivity() {
         p1.setOnClickListener {
             val intent= Intent(this, Page22Activity::class.java)
             startActivity(intent)
-            finish()
         }
 
         val p2=findViewById<LinearLayout>(R.id.p2)
         p2.setOnClickListener {
             val intent= Intent(this, Page22Activity::class.java)
             startActivity(intent)
-            finish()
         }
 
         val p3=findViewById<LinearLayout>(R.id.p3)
         p3.setOnClickListener {
             val intent= Intent(this, Page22Activity::class.java)
             startActivity(intent)
-            finish()
         }
 
         val p4=findViewById<LinearLayout>(R.id.p4)
         p4.setOnClickListener {
             val intent= Intent(this, Page22Activity::class.java)
             startActivity(intent)
-            finish()
         }
 
     }

@@ -23,11 +23,5 @@ class Page14Activity : AppCompatActivity() {
             onBackPressedDispatcher.onBackPressed()
         }
 
-        val dm = findViewById<LinearLayout>(R.id.post)
-        dm.setOnClickListener {
-            val intent = Intent(this, Page16Activity::class.java)
-            startActivity(intent)
-            finish()
-        }
     }
 }

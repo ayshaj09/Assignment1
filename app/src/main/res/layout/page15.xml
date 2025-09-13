@@ -61,7 +61,8 @@
             android:textStyle="bold"
             android:textSize="18dp"
             android:textColor="#844142"
-            android:clickable="true" />
+            android:clickable="true"
+            android:focusable="true"/>
 
     </RelativeLayout>
 

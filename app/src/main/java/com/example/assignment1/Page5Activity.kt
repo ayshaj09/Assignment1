@@ -44,7 +44,12 @@ class Page5Activity : AppCompatActivity() {
         pst.setOnClickListener {
             val intent= Intent(this, Page16Activity::class.java)
             startActivity(intent)
-            finish()
+        }
+
+        val cam=findViewById<ImageView>(R.id.camera)
+        cam.setOnClickListener {
+            val intent= Intent(this, Page17Activity::class.java)
+            startActivity(intent)
         }
 
         val ntf=findViewById<ImageView>(R.id.notif)
@@ -52,6 +57,12 @@ class Page5Activity : AppCompatActivity() {
             val intent= Intent(this, Page11Activity::class.java)
             startActivity(intent)
             finish()
+        }
+
+        val frn=findViewById<LinearLayout>(R.id.muq)
+        frn.setOnClickListener {
+            val intent= Intent(this, Page22Activity::class.java)
+            startActivity(intent)
         }
 
         val prof=findViewById<CircleImageView>(R.id.prof)

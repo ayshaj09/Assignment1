@@ -113,8 +113,7 @@
                     android:text="7"
                     android:textColor="@color/black"
                     android:textSize="18dp"
-                    android:fontFamily="@font/opensans"
-                    android:textFontWeight="700" />
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -140,8 +139,7 @@
                     android:text="120K"
                     android:textSize="18dp"
                     android:textColor="@color/black"
-                    android:fontFamily="@font/opensans"
-                    android:textFontWeight="700" />
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -168,8 +166,7 @@
                     android:text="340"
                     android:textColor="@color/black"
                     android:textSize="18dp"
-                    android:fontFamily="@font/opensans"
-                    android:textFontWeight="700" />
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -252,6 +249,7 @@
             android:gravity="center"
             android:layout_marginLeft="5dp"
             android:textStyle="bold"
+            android:textColor="@color/black"
             android:clickable="true"
             android:backgroundTint="#F0F4F7"
             />
@@ -262,6 +260,7 @@
             android:text="Email"
             android:background="@drawable/button3"
             android:gravity="center"
+            android:textColor="@color/black"
             android:layout_marginLeft="5dp"
             android:textStyle="bold"
             android:clickable="true"
@@ -332,6 +331,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/opensans"
                 android:textFontWeight="500"
+                android:textColor="@color/black"
                 android:textSize="14dp"
                 android:text="vroom"/>
 
@@ -372,6 +372,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/opensans"
                 android:textFontWeight="500"
+                android:textColor="@color/black"
                 android:textSize="14dp"
                 android:text="aesthetiz"/>
 
@@ -411,6 +412,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/opensans"
                 android:textFontWeight="500"
+                android:textColor="@color/black"
                 android:textSize="14dp"
                 android:text="s5"/>
 

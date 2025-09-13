@@ -44,10 +44,9 @@ class Page11Activity : AppCompatActivity() {
         pst.setOnClickListener {
             val intent= Intent(this, Page16Activity::class.java)
             startActivity(intent)
-            finish()
         }
 
-        val prof=findViewById<CircleImageView>(R.id.pfp)
+        val prof=findViewById<CircleImageView>(R.id.prof)
         prof.setOnClickListener {
             val intent= Intent(this, Page13Activity::class.java)
             startActivity(intent)

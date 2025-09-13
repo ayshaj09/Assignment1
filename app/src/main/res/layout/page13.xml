@@ -114,7 +114,6 @@
                     android:text="4"
                     android:textColor="@color/black"
                     android:textSize="18dp"
-                    android:fontFamily="@font/opensans"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -141,9 +140,7 @@
                     android:text="1.2 M"
                     android:textSize="18dp"
                     android:textStyle="bold"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/opensans"
-                    android:textFontWeight="700" />
+                    android:textColor="@color/black" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -170,9 +167,7 @@
                     android:text="200"
                     android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:textSize="18dp"
-                    android:fontFamily="@font/opensans"
-                    android:textFontWeight="700" />
+                    android:textSize="18dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -259,6 +254,7 @@
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="30dp"
+                    android:backgroundTint="#96626c"
                     android:background="@drawable/plus"
                     />
 

@@ -20,7 +20,7 @@ class Page12Activity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.page12)
 
-        val follow = findViewById<LinearLayout>(R.id.following)
+        val follow = findViewById<TextView>(R.id.following)
         follow.setOnClickListener {
             val intent = Intent(this, Page12Activity::class.java)
             startActivity(intent)
@@ -45,10 +45,9 @@ class Page12Activity : AppCompatActivity() {
         pst.setOnClickListener {
             val intent= Intent(this, Page16Activity::class.java)
             startActivity(intent)
-            finish()
         }
 
-        val prof=findViewById<CircleImageView>(R.id.pfp)
+        val prof=findViewById<CircleImageView>(R.id.prof)
         prof.setOnClickListener {
             val intent= Intent(this, Page13Activity::class.java)
             startActivity(intent)

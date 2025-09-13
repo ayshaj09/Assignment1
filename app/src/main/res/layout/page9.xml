@@ -112,6 +112,7 @@
             android:layout_height="30dp"
             android:background="@drawable/camera2"
             android:id="@+id/camera"
+            android:clickable="true"
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             />
@@ -120,6 +121,7 @@
             android:layout_height="wrap_content"
             android:hint="Message..."
             android:background="@null"
+            android:textColorHint="#989898"
             android:textColor="@color/black"
             android:fontFamily="@font/opensans"
             android:textSize="15dp"

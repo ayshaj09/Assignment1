@@ -1,5 +1,6 @@
 package com.example.assignment1
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageView
@@ -11,6 +12,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class Page8Activity : AppCompatActivity() {
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -42,6 +44,36 @@ class Page8Activity : AppCompatActivity() {
         val dm4 = findViewById<LinearLayout>(R.id.dm4)
         dm4.setOnClickListener {
             val intent = Intent(this, Page9Activity::class.java)
+            startActivity(intent)
+        }
+
+        val c1 = findViewById<ImageView>(R.id.c1)
+        c1.setOnClickListener {
+            val intent = Intent(this, Page17Activity::class.java)
+            startActivity(intent)
+        }
+
+        val c2 = findViewById<ImageView>(R.id.c2)
+        c2.setOnClickListener {
+            val intent = Intent(this, Page17Activity::class.java)
+            startActivity(intent)
+        }
+
+        val c3 = findViewById<ImageView>(R.id.c3)
+        c3.setOnClickListener {
+            val intent = Intent(this, Page17Activity::class.java)
+            startActivity(intent)
+        }
+
+        val c4 = findViewById<ImageView>(R.id.c4)
+        c4.setOnClickListener {
+            val intent = Intent(this, Page17Activity::class.java)
+            startActivity(intent)
+        }
+
+        val c5 = findViewById<LinearLayout>(R.id.c5)
+        c5.setOnClickListener {
+            val intent = Intent(this, Page17Activity::class.java)
             startActivity(intent)
         }
     }

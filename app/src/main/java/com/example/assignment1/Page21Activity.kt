@@ -57,7 +57,7 @@ class Page21Activity : AppCompatActivity() {
             finish()
         }
 
-        val prof=findViewById<CircleImageView>(R.id.pfp)
+        val prof=findViewById<FrameLayout>(R.id.prof)
         prof.setOnClickListener {
             val intent= Intent(this, Page13Activity::class.java)
             startActivity(intent)

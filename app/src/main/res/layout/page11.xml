@@ -10,14 +10,16 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="10dp"
         android:background="@drawable/rectangle"
         android:backgroundTint="#FFFFFF"
         android:id="@+id/h"
         />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_below="@id/h"
         android:layout_above="@id/footer"
         android:fillViewport="true"
         >
@@ -938,7 +940,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text=" post: A* sky."
+                            android:text=" post: cute sky."
                             android:textColor="@color/black"/>
 
                         <TextView
@@ -1050,6 +1052,7 @@
             android:layout_weight="1"
             android:src="@drawable/home3"
             app:tint="#955a5b"
+            android:id="@+id/home"
             android:scaleType="centerInside"
             android:clickable="true"/>
 
@@ -1058,6 +1061,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:src="@drawable/tab2"
+            android:id="@+id/search"
             android:scaleType="centerInside"
             android:clickable="true"/>
 
@@ -1065,6 +1069,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:id="@+id/post"
             android:src="@drawable/tab3"
             android:scaleType="centerInside"
             android:clickable="true"/>
@@ -1078,12 +1083,13 @@
             android:scaleType="centerInside"
             android:clickable="true"/>
 
+
         <de.hdodenhof.circleimageview.CircleImageView
             android:layout_width="0dp"
             android:layout_height="25dp"
             android:src="@drawable/pfp"
             android:layout_weight="1"
-            android:id="@+id/pfp"
+            android:id="@+id/prof"
             android:layout_marginTop="-3dp"
             android:layout_gravity="center"
             android:clickable="true"/>

@@ -1,32 +1,32 @@
 package com.example.assignment1
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageView
+import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class Page16Activity : AppCompatActivity() {
-    @SuppressLint("MissingInflatedId")
+class Page17Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.page16)
+        setContentView(R.layout.page17)
 
 
-        val back= findViewById<TextView>(R.id.back)
+        val back= findViewById<ImageView>(R.id.back)
         back.setOnClickListener {
             onBackPressedDispatcher.onBackPressed()
             finish()
         }
 
-        val next= findViewById<TextView>(R.id.next)
-        next.setOnClickListener {
-            onBackPressedDispatcher.onBackPressed()
+        val dm = findViewById<LinearLayout>(R.id.camera)
+        dm.setOnClickListener {
+            val intent = Intent(this, Page19Activity::class.java)
+            startActivity(intent)
             finish()
         }
 

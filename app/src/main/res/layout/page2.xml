@@ -14,7 +14,7 @@
         android:layout_above="@id/profile"
         android:layout_centerHorizontal="true"
         android:textColor="#914042"
-        android:textSize="60dp"
+        android:textSize="58dp"
         android:textFontWeight="500"
         android:letterSpacing="-0.06"
         android:fontFamily="@font/opensans"

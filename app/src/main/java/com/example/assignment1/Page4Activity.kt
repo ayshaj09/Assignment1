@@ -27,6 +27,7 @@ class Page4Activity : AppCompatActivity() {
         val back= findViewById<ImageView>(R.id.back)
         back.setOnClickListener {
             onBackPressedDispatcher.onBackPressed()
+            finish()
         }
     }
 }
