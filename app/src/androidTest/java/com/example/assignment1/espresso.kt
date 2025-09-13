@@ -13,8 +13,6 @@ import org.junit.Test
 import org.junit.runner.RunWith
 
 class espresso {
-
-
     @get:Rule
     val activityRule = ActivityScenarioRule(Page2Activity::class.java)
 
