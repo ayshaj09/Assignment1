@@ -5,18 +5,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".Page22Activity"
+    android:id="@+id/main"
     android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/rectangle"
+        android:backgroundTint="#FFFFFF"
+        android:id="@+id/h"
+        />
 
     <RelativeLayout
         android:id="@+id/header"
         android:layout_width="match_parent"
         android:layout_height="70dp"
+        android:layout_below="@id/h"
         android:background="@drawable/rectangle"
         android:backgroundTint="#FFFFFF">
 
         <ImageView
             android:layout_width="25dp"
             android:layout_height="25dp"
+            android:id="@+id/back"
             android:background="@drawable/back_arrow"
             android:layout_centerVertical="true"
             android:clickable="true"
@@ -62,6 +73,7 @@
 
         <FrameLayout
             android:layout_width="100dp"
+            android:id="@+id/story"
             android:layout_height="100dp">
 
             <de.hdodenhof.circleimageview.CircleImageView
@@ -224,6 +236,7 @@
             android:text="Follow"
             android:background="@drawable/button3"
             android:gravity="center"
+            android:id="@+id/follow"
             android:layout_marginLeft="5dp"
             android:textStyle="bold"
             android:textColor="@color/white"
@@ -539,12 +552,14 @@
         android:layout_height="60dp"
         android:layout_alignParentBottom="true"
         android:orientation="horizontal"
+        android:layout_marginBottom="35dp"
         android:gravity="center">
 
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:id="@+id/home"
             android:src="@drawable/tab1"
             android:scaleType="centerInside"
             android:clickable="true"/>
@@ -553,6 +568,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:id="@+id/search"
             android:src="@drawable/tab2"
             android:scaleType="centerInside"
             android:clickable="true"/>
@@ -561,6 +577,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:id="@+id/post"
             android:src="@drawable/tab3"
             android:scaleType="centerInside"
             android:clickable="true"/>
@@ -570,12 +587,14 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:src="@drawable/tab4"
+            android:id="@+id/notif"
             android:scaleType="centerInside"
             android:clickable="true"/>
 
         <FrameLayout
             android:layout_width="0dp"
             android:layout_height="35dp"
+            android:id="@+id/prof"
             android:layout_weight="1">
 
             <de.hdodenhof.circleimageview.CircleImageView

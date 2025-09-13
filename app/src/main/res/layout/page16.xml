@@ -12,7 +12,7 @@
         android:id="@+id/header"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/rectangle"
         android:backgroundTint="#FAFAFA">
 
@@ -63,7 +63,7 @@
             android:backgroundTint="#866266"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="20dp"
+            android:layout_marginEnd="25dp"
             android:clickable="true" />
 
     </RelativeLayout>
@@ -85,7 +85,7 @@
             android:gravity="center"
             android:id="@+id/plus"
             android:layout_margin="15dp"
-android:layout_toLeftOf="@id/grid"
+            android:layout_toLeftOf="@id/grid"
             android:layout_alignParentBottom="true">
 
             <ImageView
@@ -93,14 +93,13 @@ android:layout_toLeftOf="@id/grid"
                 android:layout_height="40dp"
                 android:background="@drawable/circle3"
                 android:backgroundTint="#801F1F1F"
-
                 />
 
             <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:layout_centerInParent="true"
-                android:background="@drawable/plus"
+                android:background="@drawable/grid"
                 android:backgroundTint="@color/white"
                 />
 
@@ -128,7 +127,7 @@ android:layout_toLeftOf="@id/grid"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_centerInParent="true"
-                android:background="@drawable/gallery"
+                android:background="@drawable/menu"
                 android:backgroundTint="@color/white"
                 />
 
@@ -364,6 +363,7 @@ android:layout_toLeftOf="@id/grid"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:id="@+id/footer"
+        android:layout_marginBottom="35dp"
         android:orientation="horizontal"
         android:layout_alignParentBottom="true"
         android:weightSum="3">
@@ -372,7 +372,7 @@ android:layout_toLeftOf="@id/grid"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Library"
+            android:text="Post"
             android:layout_gravity="center"
             android:textColor="#9D4C57"
             android:textSize="20dp"
@@ -383,10 +383,12 @@ android:layout_toLeftOf="@id/grid"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Photo"
+            android:text="Story"
             android:layout_gravity="center"
             android:textColor="#9D4C57"
+            android:id="@+id/story"
             android:textSize="20dp"
+            android:clickable="true"
             android:textStyle="bold"
             android:gravity="center"/>
 
@@ -394,7 +396,7 @@ android:layout_toLeftOf="@id/grid"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Video"
+            android:text="Reel"
             android:layout_gravity="center"
             android:textColor="#9D4C57"
             android:textSize="20dp"

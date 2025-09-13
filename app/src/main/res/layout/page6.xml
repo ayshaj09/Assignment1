@@ -8,16 +8,25 @@
     android:background="#FAFAFA"
     tools:context=".Page6Activity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/rectangle"
+        android:backgroundTint="#FAFAFA"
+        android:id="@+id/h"
+        />
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fillViewport="true"
+        android:layout_below="@id/h"
         android:layout_above="@id/footer"
         >
 
         <LinearLayout
             android:layout_width="match_parent"
             android:orientation="vertical"
+
             android:layout_height="wrap_content">
 
             <RelativeLayout
@@ -393,6 +402,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:id="@+id/footer"
+        android:layout_marginBottom="35dp"
         android:layout_alignParentBottom="true"
         android:orientation="horizontal"
         android:gravity="center">
@@ -403,6 +413,7 @@
             android:layout_weight="1"
             android:src="@drawable/home3"
             app:tint="#955a5b"
+            android:id="@+id/home"
             android:scaleType="centerInside"
             android:clickable="true"/>
 
@@ -419,6 +430,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:id="@+id/post"
             android:src="@drawable/tab3"
             android:scaleType="centerInside"
             android:clickable="true"/>
@@ -428,6 +440,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:src="@drawable/tab4"
+            android:id="@+id/notif"
             android:scaleType="centerInside"
             android:clickable="true"/>
 
@@ -435,6 +448,7 @@
             android:layout_width="0dp"
             android:layout_height="25dp"
             android:src="@drawable/pfp"
+            android:id="@+id/prof"
             android:layout_weight="1"
             android:layout_marginTop="-3dp"
             android:layout_gravity="center"

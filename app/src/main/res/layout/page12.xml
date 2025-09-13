@@ -8,6 +8,13 @@
     tools:context=".Page12Activity"
     android:background="#FFFFFF">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/rectangle"
+        android:backgroundTint="#FFFFFF"
+        android:id="@+id/h"
+        />
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -117,7 +124,6 @@
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:id="@+id/pfp"
                         android:src="@drawable/pfp5"
                         android:layout_marginTop="10dp"
                         android:layout_marginLeft="20dp"
@@ -946,6 +952,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:id="@+id/footer"
+        android:layout_marginBottom="35dp"
         android:layout_alignParentBottom="true"
         android:orientation="horizontal"
         android:gravity="center">

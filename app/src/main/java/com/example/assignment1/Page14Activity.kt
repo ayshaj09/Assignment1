@@ -1,8 +1,10 @@
 package com.example.assignment1
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageView
+import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -19,6 +21,13 @@ class Page14Activity : AppCompatActivity() {
         val back= findViewById<ImageView>(R.id.back)
         back.setOnClickListener {
             onBackPressedDispatcher.onBackPressed()
+        }
+
+        val dm = findViewById<LinearLayout>(R.id.post)
+        dm.setOnClickListener {
+            val intent = Intent(this, Page16Activity::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 }

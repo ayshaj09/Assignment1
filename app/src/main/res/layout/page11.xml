@@ -8,6 +8,13 @@
     tools:context=".Page11Activity"
     android:background="#FFFFFF">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/rectangle"
+        android:backgroundTint="#FFFFFF"
+        android:id="@+id/h"
+        />
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -1033,6 +1040,7 @@
         android:layout_height="60dp"
         android:id="@+id/footer"
         android:layout_alignParentBottom="true"
+        android:layout_marginBottom="35dp"
         android:orientation="horizontal"
         android:gravity="center">
 

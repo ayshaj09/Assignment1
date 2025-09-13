@@ -1,6 +1,7 @@
 package com.example.assignment1
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
@@ -25,6 +26,13 @@ class Page16Activity : AppCompatActivity() {
         val next= findViewById<TextView>(R.id.next)
         next.setOnClickListener {
             onBackPressedDispatcher.onBackPressed()
+        }
+
+        val dm = findViewById<TextView>(R.id.story)
+        dm.setOnClickListener {
+            val intent = Intent(this, Page19Activity::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 }

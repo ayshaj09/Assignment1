@@ -12,7 +12,7 @@
         android:id="@+id/header"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/rectangle"
         android:backgroundTint="#FAFAFA">
 
@@ -115,7 +115,7 @@
                     android:textColor="@color/black"
                     android:textSize="18dp"
                     android:fontFamily="@font/opensans"
-                    android:textFontWeight="700" />
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -140,6 +140,7 @@
                     android:layout_height="wrap_content"
                     android:text="1.2 M"
                     android:textSize="18dp"
+                    android:textStyle="bold"
                     android:textColor="@color/black"
                     android:fontFamily="@font/opensans"
                     android:textFontWeight="700" />
@@ -167,6 +168,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="200"
+                    android:textStyle="bold"
                     android:textColor="@color/black"
                     android:textSize="18dp"
                     android:fontFamily="@font/opensans"

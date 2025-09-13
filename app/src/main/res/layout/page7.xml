@@ -4,13 +4,23 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".Page7Activity"
+
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/rectangle"
+        android:backgroundTint="#FAFAFA"
+        android:id="@+id/h"
+        />
 
     <RelativeLayout
         android:id="@+id/header"
         android:layout_width="match_parent"
         android:layout_height="70dp"
+        android:layout_below="@id/h"
         android:background="@drawable/rectangle"
         android:backgroundTint="#FAFAFA"
         android:gravity="center"
@@ -38,6 +48,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="sonny"
+                android:textColor="@color/black"
                 android:background="@null"
                 android:layout_centerVertical="true"
                 android:layout_toRightOf="@id/search"
@@ -49,6 +60,7 @@
                 android:layout_width="23dp"
                 android:layout_height="20dp"
                 android:background="@drawable/exit"
+                android:id="@+id/ext"
                 android:layout_marginTop="11dp"
                 android:layout_alignParentEnd="true"
                 android:layout_marginRight="5dp"
@@ -61,6 +73,7 @@
             android:layout_height="wrap_content"
             android:text="Clear"
             android:clickable="true"
+            android:id="@+id/back"
             android:layout_toRightOf="@id/searchbar"
             android:textSize="18dp"
             android:layout_marginLeft="10dp"
@@ -95,6 +108,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Top"
+                android:textColor="@color/black"
                 android:layout_marginBottom="15dp"
                 android:layout_marginTop="12dp"
                 android:gravity="center"
@@ -155,6 +169,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="2"
+            android:id="@+id/p1"
             android:orientation="horizontal"
             android:weightSum="4">
 
@@ -182,6 +197,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Sonny"
+                    android:textColor="@color/black"
                     android:fontFamily="@font/opensans"
                     android:textFontWeight="600"/>
 
@@ -200,6 +216,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="2"
+            android:id="@+id/p2"
             android:orientation="horizontal"
             android:weightSum="4">
 
@@ -226,6 +243,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Sonny_raspberry"
+                    android:textColor="@color/black"
                     android:fontFamily="@font/opensans"
                     android:textFontWeight="600"/>
 
@@ -244,6 +262,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="2"
+            android:id="@+id/p3"
             android:orientation="horizontal"
             android:weightSum="4">
 
@@ -270,6 +289,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Sonny_strawberry"
+                    android:textColor="@color/black"
                     android:fontFamily="@font/opensans"
                     android:textFontWeight="600"/>
 
@@ -289,6 +309,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:orientation="horizontal"
+            android:id="@+id/p4"
             android:weightSum="4">
 
             <de.hdodenhof.circleimageview.CircleImageView
@@ -314,6 +335,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Sonny_rabbit"
+                    android:textColor="@color/black"
                     android:fontFamily="@font/opensans"
                     android:textFontWeight="600"/>
 

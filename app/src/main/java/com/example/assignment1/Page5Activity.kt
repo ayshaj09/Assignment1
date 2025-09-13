@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageView
+import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -58,6 +59,48 @@ class Page5Activity : AppCompatActivity() {
             val intent= Intent(this, Page13Activity::class.java)
             startActivity(intent)
             finish()
+        }
+
+        val st1 = findViewById<LinearLayout>(R.id.story1)
+        st1.setOnClickListener {
+            val intent = Intent(this, Page20Activity::class.java)
+            startActivity(intent)
+        }
+
+        val st2 = findViewById<LinearLayout>(R.id.story2)
+        st2.setOnClickListener {
+            val intent = Intent(this, Page18Activity::class.java)
+            startActivity(intent)
+        }
+
+        val st3 = findViewById<LinearLayout>(R.id.story3)
+        st3.setOnClickListener {
+            val intent = Intent(this, Page18Activity::class.java)
+            startActivity(intent)
+        }
+
+        val st4 = findViewById<LinearLayout>(R.id.story4)
+        st4.setOnClickListener {
+            val intent = Intent(this, Page18Activity::class.java)
+            startActivity(intent)
+        }
+
+        val st5 = findViewById<LinearLayout>(R.id.story5)
+        st5.setOnClickListener {
+            val intent = Intent(this, Page18Activity::class.java)
+            startActivity(intent)
+        }
+
+        val st6 = findViewById<LinearLayout>(R.id.story6)
+        st6.setOnClickListener {
+            val intent = Intent(this, Page18Activity::class.java)
+            startActivity(intent)
+        }
+
+        val st7 = findViewById<LinearLayout>(R.id.story7)
+        st7.setOnClickListener {
+            val intent = Intent(this, Page18Activity::class.java)
+            startActivity(intent)
         }
     }
 }
