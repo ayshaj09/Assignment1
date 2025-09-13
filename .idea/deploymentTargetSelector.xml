@@ -13,9 +13,6 @@
         </DropdownSelection>
         <DialogSelection />
       </SelectionState>
-      <SelectionState runConfigName="testLoginNavigatesToPage13()">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
       <SelectionState runConfigName="espresso">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>

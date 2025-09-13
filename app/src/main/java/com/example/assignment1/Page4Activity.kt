@@ -17,6 +17,12 @@ class Page4Activity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.page4)
 
+        val back= findViewById<ImageView>(R.id.backbutton)
+        back.setOnClickListener {
+            onBackPressedDispatcher.onBackPressed()
+            finish()
+        }
+
         val login = findViewById<TextView>(R.id.account)
         login.setOnClickListener {
             val intent = Intent(this, Page13Activity::class.java)
@@ -24,10 +30,5 @@ class Page4Activity : AppCompatActivity() {
             finish()
         }
 
-        val back= findViewById<ImageView>(R.id.back)
-        back.setOnClickListener {
-            onBackPressedDispatcher.onBackPressed()
-            finish()
-        }
     }
 }

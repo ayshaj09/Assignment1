@@ -108,9 +108,4 @@
             android:textFontWeight="700"
             android:clickable="true"/>
     </LinearLayout>
-
-
-
-
-
 </RelativeLayout>
